@@ -7,7 +7,7 @@ def names():
 
     completo = nombre + " " + apellido
 
-    print(completo.lower())
-    print(completo.title())
-    print(completo.upper())
-    print(f"\t {completo.lower()})
+    print("En minúsculas:", completo.lower())
+    print("En título:", completo.title())
+    print("En mayúsculas:", completo.upper())
+    print("Con tabulador:", nombre + "\t" + apellido)

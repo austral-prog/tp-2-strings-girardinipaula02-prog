@@ -1,13 +1,13 @@
 def slice_simple():
-    """Dado el texto 'Awesome', imprime distintos substrings
-    usando slicing y lower().
-    """
     texto = "Awesome"
 
-    print(texto[0:3])      # Awe
-    print(texto[3:])       # some
-    print(texto[:4])       # Awes
-    print(texto[::2])      # Aeoe
-    print(texto.lower())   # awesome
+    # Primeros 3 caracteres en minúsculas
+    print(texto[:3].lower())
 
-slice_simple()
+    # Desde posición 2 hasta la 4 (inclusive)
+    print(texto[2:5].lower())
+
+    # Texto completo en minúsculas
+    print(texto.lower())
+
+#slice_simple()
